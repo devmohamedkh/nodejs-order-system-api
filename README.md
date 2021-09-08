@@ -27,11 +27,15 @@ and delete and modify data for both restaurants and customers
 ## auth Roue
 | Route  | methode | header | body | desc  |
 | :----: |  :---:  | :-----:| :---:|:-----:|
-| /signup |  POST |  |  _   |   _  | to create a customer |
-| /ligin |  POST |  |       |
-| /signup |  POST |  |       |
-| /signup |  POST |  |       |
-| /signup |  POST |  |       |
+| /signup |  POST |    _    |  _   |  to create a customer |
+| /login |  POST |    _    |  _   |  to login as customer |
+| /admin/signup |  POST |    _    |  _   |  to create a admin |
+| /admin/login |  POST |    _    |  _   |  to login as admin |
+| /restaurant/signup |  POST |    _    |  _   |  to create a restaurant |
+| /restaurant/login |  POST |    _    |  _   |  to login as restaurant |
+
+
+
 
 
 
