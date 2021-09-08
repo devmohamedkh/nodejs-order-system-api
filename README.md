@@ -25,29 +25,26 @@ and delete and modify data for both restaurants and customers
 
 # routs
 ## auth Roue
-| Route  | methode | header | body | desc  |
-| :----: |  :---:  | :-----:| :---:|:-----:|
-| /signup |  POST |    _    |  _   |  to create a customer |
-| /login |  POST |    _    |  _   |  to login as customer |
-| /admin/signup |  POST |    _    |  _   |  to create a admin |
-| /admin/login |  POST |    _    |  _   |  to login as admin |
-| /restaurant/signup |  POST |    _    |  _   |  to create a restaurant |
-| /restaurant/login |  POST |    _    |  _   |  to login as restaurant |
+| Route  | methode | desc  |
+| :---- | :---:|:-----|
+| /signup |  POST |  to create a customer |
+| /login |  POST |  to login as customer |
+| /admin/signup |  POST |  to create a admin |
+| /admin/login |  POST | to login as admin |
+| /restaurant/signup |  POST |  to create a restaurant |
+| /restaurant/login |  POST |to login as restaurant |
 
 
 
+## user roue:
+| Route  | methode | desc  |
+| :---- |  :---:  |:-----|
+| /customer |  GET |  to get all customers |
+| /customer/:id |  GET | to get customer by id |
+| /admin/signup |  POST |  to create a admin |
+| /admin/login |  POST |  to login as admin |
+| /restaurant/signup |  POST | to create a restaurant |
+| /restaurant/login |  POST | to login as restaurant |
 
 
-
- what user can do:
-* creat and update or delete account.
-* add oroduct to cart and remove it or updete.
-* create order and  update or delete the order.
-
-user roue:
-| Route  | methode  | header | body |
-| :------------: |:---------------:| :-----:| :-----:|
-| col 3 is      | some wordy text | $1600 |       |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
 
