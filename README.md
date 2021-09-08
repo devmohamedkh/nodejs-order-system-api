@@ -15,8 +15,6 @@ and delete and modify data for both restaurants and customers
 * stripe
 
 # Features
-* Create an account as customer or seller.
-
 
 Customer can do the following:
 * Create an account, login or logout.
