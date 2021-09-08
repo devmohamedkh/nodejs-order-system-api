@@ -1,7 +1,7 @@
-# nodejs-food-order-api
+# nodejs-order-system-api
 
 # Introduction
-order api using Node js, Express js, and Mongoose.
+order system api using Node js, Express js, and Mongoose.
 
 # Technology
 * Node.js
