@@ -15,36 +15,33 @@ and delete and modify data for both restaurants and customers
 * stripe
 
 # Features
-* Create an account as customer or seller and admin, login or logout
-* Browse available products
-*  add - delete - update  product
-* Add products to the shopping cart
-* Delete or update products from the shopping cart
-* Display the shopping cart
-* Browse orders and create or delete
-
-# routs
-## auth Roue
-| Route  | methode | desc  |
-| :---- | :---:|:-----|
-| /signup |  POST |  to create a customer |
-| /login |  POST |  to login as customer |
-| /admin/signup |  POST |  to create a admin |
-| /admin/login |  POST | to login as admin |
-| /restaurant/signup |  POST |  to create a restaurant |
-| /restaurant/login |  POST |to login as restaurant |
+* Create an account as customer or seller.
 
 
+Customer can do the following:
+* Create an account, login or logout.
+* update or delete only own account.
+* Display the product.
+* sersh in product.
+* Add products to the shopping cart.
+* Delete or update products from the shopping cart.
+* Display the shopping cart.
+* To checkout, a user must be logged in
+* creat or cancel order their own.
 
-## user roue:
-| Route  | methode | desc  |
-| :---- |  :---:  |:-----|
-| /customer |  GET |  to get all customers |
-| /customer/:id |  GET | to get customer by id |
-| /admin/signup |  POST |  to create a admin |
-| /admin/login |  POST |  to login as admin |
-| /restaurant/signup |  POST | to create a restaurant |
-| /restaurant/login |  POST | to login as restaurant |
+Restaurants can do the following:
+* Create an account, login or logout.
+* update or delete only own account.
+* add or update their own product.
+* Display the order their own.
+* cancel order their own.
+
+
+Admins can do the following:
+
+* Login or logout to the admin panel
+* View all the information stored in the database. They can view/add/edit/delete orders, users, products and categories. The cart model cannot be modified by an admin because a cart is either modified by the logged in user before the purchase or deleted after the purchase.
+
 
 
 
