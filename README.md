@@ -13,8 +13,9 @@ order system api using Node js, Express js, and Mongoose.
 * stripe
 
 # Features
-* Create an account, login or logout
-* Browse available products or add product
+* Create an account as customer or seller and admin, login or logout
+* Browse available products
+*  add - delete - update  product
 * Add products to the shopping cart
 * Delete products from the shopping cart
 * Display the shopping cart
